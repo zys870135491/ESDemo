@@ -36,11 +36,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * ES的基本增查删改以及批量操作
+ * ES的文档基本增查删改以及批量操作
  */
 @SpringBootTest(classes = EsApplication.class)
 @RunWith(SpringRunner.class)
-public class BasicTest {
+public class DocumentTest {
 
     @Autowired
     RestHighLevelClient client;
